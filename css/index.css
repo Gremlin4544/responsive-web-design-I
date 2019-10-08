@@ -78,7 +78,8 @@ h1, h2, h3, h4, h5 {
 header {
 	/* background-color: cornsilk; */
 	width: 100%;
-	padding-bottom: 25px;
+    padding-bottom: 25px;
+    display: flex;
 }
 
 nav {
@@ -97,8 +98,8 @@ nav a {
 .logo {
 	/* padding-top: 20px; */
 	/* padding-bottom: 0; */
-    padding-left: 15%;
-    margin-top: 2vh;
+    padding-left: 75%;
+    margin-top: 1.5vh;
 }
 
 .intro {
@@ -181,5 +182,9 @@ footer p {
 
 span {
 	font-size: 12px;
+}
+
+@ media (max-width: 500px) {
+
 }
 
