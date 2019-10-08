@@ -104,17 +104,15 @@ nav a {
 }
 
 .intro {
-    margin-top: 45px;
+    margin-top: 5vh;
     margin-left: 80px;
 	width: 100%;
-	display: flex;
+    display: flex;
 }
 
 .hero-text {
 	width: 45%;
-	/* padding: 50px; */
-    justify-content: center;
-    align-items: center;
+	padding: 50px;
 	margin: 40px;
 }
 
@@ -165,6 +163,10 @@ h3 {
 .third-width {
 	width: 32%;
     padding: 20px 10px;
+}
+
+img.middle-img {
+    width: 100%;
 }
 
 h6 {
