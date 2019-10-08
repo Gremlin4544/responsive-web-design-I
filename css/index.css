@@ -99,7 +99,7 @@ nav a {
 	/* padding-top: 20px; */
 	/* padding-bottom: 0; */
     padding-left: 75%;
-    margin-top: 1.5vh;
+    margin-top: 2vh;
 }
 
 .intro {
@@ -184,7 +184,96 @@ span {
 	font-size: 12px;
 }
 
-@ media (max-width: 500px) {
+@media (max-width: 500px) {
+    * {
+        max-width: 100%;
+        /* justify-content: center; */
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+    }
+    nav a {
+        border-top: 1px solid black;
+        width: 65%;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 2vh;
+        padding-bottom: 1vh; 
+    }
+
+    nav a:last-child {
+        border-bottom: 1px solid black;
+        padding-top: 1.5vh;
+        padding-bottom: 3vh;
+    }
+
+    .logo {
+        padding-top: 1.5vh;
+        padding-left: 0;
+
+    }
+
+    div.intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .full-width {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .half-width, .third-width {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin: 15px 0 0 45px;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer {
+        border-top: 2px solid black;
+    }
+
+    footer h3 {
+        margin-top: 15px;
+    }
 }
 
