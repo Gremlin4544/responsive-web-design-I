@@ -184,10 +184,41 @@ span {
 	font-size: 12px;
 }
 
+@media (max-width: 800px) {
+    * {
+        max-width: 100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .logo {
+        padding-top: 1.5vh;
+        padding-left: 0;
+    }
+
+    .half-width {
+        border-bottom: 1px solid black;
+        padding-top: 5px;
+    }
+
+    .third-width {
+        border-bottom: 1px solid black;
+    }
+}
+
 @media (max-width: 500px) {
     * {
         max-width: 100%;
-        /* justify-content: center; */
     }
     .wrapper {
         display: flex;
